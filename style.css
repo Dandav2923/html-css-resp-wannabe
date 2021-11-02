@@ -74,6 +74,7 @@ img {
 
 
 @media screen and (max-width: 420px) {
+  /* reset pagina */
  * {
    margin: 0;
    padding: 0;
@@ -84,6 +85,7 @@ img {
    font-size: 100%;
  }
 
+ /* Cambio colore sfondo  */
  .container, .container.grey {
    background-color: #f1f2cd;
  }
@@ -92,6 +94,7 @@ img {
    background-color: white;
  }
 
+/* adattamento degli elementi alla nuova width */
  .row {
   display: flex;
   flex-direction: column;
@@ -147,6 +150,5 @@ img {
    height: 100%;
    width: 20%;
  }
-
 
 }
